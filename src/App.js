@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Article from './Article/Article';
+import Hero from './Hero/Hero';
 
-function App() {
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main>
+      <div className='w-screen min-h-screen fixed -z-10 flex justify-center py-32 px-6 gradient' />
+
+      <div>
+        <Hero />
+        <Article />
+      </div>
+    </main>
+  )
 }
 
 export default App;
