@@ -9,7 +9,7 @@ const Hero = () => {
           <img src={logo} alt="Summarizer logo" className='h-20 w-20' />
         </div>
         <div>
-          <button className='bg-black text-white rounded-xl px-5 py-2 hover:bg-white hover:text-black transition-all'>GitHub</button>
+          <button onClick={() => window.open('https://github.com/kaustabhws')} className='bg-black text-white rounded-xl px-5 py-2 hover:bg-white hover:text-black transition-all'>GitHub</button>
         </div>
       </div>
       <div className='text-center text-5xl font-bold'>
